@@ -2,8 +2,12 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { worksexp } from '@/lib/constant';
 import { cn } from '@/lib/utils';
+import { useTheme } from '../utils/theme-provider';
 
 const WorkExperience = () => {
+
+    const { theme } = useTheme()
+
     return (
         <section className="flex flex-col gap-y-4">
             <h3 className="text-2xl md:text-3xl font-semibold">Work Experience</h3>
@@ -13,7 +17,7 @@ const WorkExperience = () => {
                         <img
                             src={exp.logo}
                             alt={`${exp.company} logo`}
-                            className={cn("w-[250px] h-[250px] object-contain rounded-2xl", exp.company === "Freelancer" && "bg-white  shadow-md")}
+                            className={cn("w-[250px] h-[250px] object-contain rounded-2xl", theme === "dark" && "invert")}
                             loading="lazy"
                         />
                         <CardContent className="p-0">
