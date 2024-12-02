@@ -13,7 +13,7 @@ const WorkExperience = () => {
                         <img
                             src={exp.logo}
                             alt={`${exp.company} logo`}
-                            className={cn("w-[250px] h-[250px] object-contain", exp.company === "Freelancer" && "bg-white rounded-2xl shadow-md")}
+                            className={cn("w-[250px] h-[250px] object-contain rounded-2xl", exp.company === "Freelancer" && "bg-white  shadow-md")}
                             loading="lazy"
                         />
                         <CardContent className="p-0">

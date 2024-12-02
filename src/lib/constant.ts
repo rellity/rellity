@@ -16,15 +16,21 @@ export const worksexp = [
 export const personalProjects = [
     {
         name: 'ICTS Logger',
-        stack: 'React-Native, Expo, Javascript, PHP, Apache-Webserver, MySql',
+        stack: 'React-Native, Expo, Javascript, PHP, MySql',
         logo: '/projects/CCSIT.png',
         url: 'https://github.com/rellity/appattthree',
     },
     {
         name: "Tracker Clone - Webflow",
-        stack: 'React, Tailwind, TypeScript',
-        logo: '/projects/tracker-clone.png',
-        url: 'https://github.com/rell/tracker-clone',
+        stack: 'React, NextJS, Tailwind, TypeScript',
+        logo: '/projects/tracker.png',
+        url: 'https://github.com/rellity/tracker-clone',
     },
-
+    {
+        name: 'Pocket Clone - Webflow',
+        stack: 'React, NextJS, Tailwind, TypeScript',
+        logo: '/projects/pocket.png',
+        url: 'https://github.com/rellity/pocket-clone',
+    },
 ]
+

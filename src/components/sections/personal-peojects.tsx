@@ -13,11 +13,11 @@ export default function PersonalProjects() {
                         <img
                             src={exp.logo}
                             alt={`${exp.name} logo`}
-                            className={cn("w-full h-[250px] object-contain bg-white rounded-2xl shadow-md p-3")}
+                            className={cn("w-full h-[250px]  bg-white rounded-2xl shadow-md", exp.name !== "ICTS Logger" ? "object-fit" : "object-contain p-3")}
                             loading="lazy"
                         />
                         <CardContent className="p-0">
-                            <a href={exp.url} target="_blank" className="text-xl md:text-2xl font-semibold">{exp.name}</a>
+                            <a href={exp.url} target="_blank" className="text-xl md:text-2xl font-semibold underline">{exp.name}</a>
                             <p className="text-lg md:text-xl">{exp.stack}</p>
                         </CardContent>
                     </Card>
