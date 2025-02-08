@@ -5,9 +5,9 @@ Currently building awesome things at Asceoft Inc., where I specialize in creatin
 ## 💻 Tech Stack
 
 ### Frontend
-- **React & Next.js** - My primary weapons of choice
-- **Vue.js** - Proficient in building scalable applications
-- **Svelte** - Experienced in creating lightning-fast web apps
+- **React & Next.js** - my primary solution for client and server side rendering
+- **Vue.js** - good enough to code in
+- **Svelte** - prefer this over vue
 
 ### Backend
 - **Node.js**
@@ -16,7 +16,7 @@ Currently building awesome things at Asceoft Inc., where I specialize in creatin
 - **PHP**
   - Laravel - Building robust backend systems
   - Lumen - For lightweight microservices
-- **Inertia.js** - My preferred approach for full-stack apps, bridging the gap between Laravel and modern frontend frameworks
+- **Inertia.js** - for bridging the gap between Laravel and javascript frontend frameworks
 
 ## 🚀 What I Do
 
@@ -30,7 +30,7 @@ I'm passionate about creating seamless user experiences by leveraging modern web
 
 ## 🌱 Currently
 
-- Working on exciting projects at Asceoft Inc.
+- Working on exciting projects like *redacted* at Asceoft Inc.
 - Exploring the latest features in Next.js
 - Learning Elysia.js for high-performance backend development
-- Always staying up to date with frontend and backend trends
+- procrastrinating on learning golang
