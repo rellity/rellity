@@ -1,2 +1,13 @@
+name = "rellity"
+type = "javascript"
+
 [build]
 command = "npm install --force && npm run build"
+cwd = "."
+
+[site]
+bucket = "./dist"
+entry-point = "."
+
+[env.production]
+pages_build_output_dir = "./dist"
