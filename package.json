@@ -3,8 +3,9 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "preinstall": "npm clean-install --force",
     "dev": "vite --port 3000",
-    "build": "vite build && tsc",
+    "build": "npm run preinstall && build && tsc",
     "serve": "vite preview",
     "test": "vitest run"
   },
