@@ -18,7 +18,7 @@ const WorkExperience = () => {
                         <img
                             src={exp.logo}
                             alt={`${exp.company} logo`}
-                            className={cn("w-[250px] h-[250px] object-contain rounded-2xl", theme === "dark" && "invert")}
+                            className={cn("w-[250px] h-[250px] object-contain rounded-2xl", theme === "dark" && "dark:invert")}
                             loading="lazy"
                         />
                         <CardContent className="p-0">
